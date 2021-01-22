@@ -54,5 +54,5 @@ server.use(mount("/", koaStatic(__dirname + "/public")));
 
 // Start-up the server
 server.listen(port, () => {
-    console.log(`> Ready and listening on port:${port}`);
+    console.log('> Ready and listening on port:${port}');
 });
